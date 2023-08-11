@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    {"src":"/claudai/(.*)","dest":"https://claude.ai/$1"},
+    {"source":"/claudai/(.*)","destination":"https://claude.ai/$1"},
     { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
     { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" },
     { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
